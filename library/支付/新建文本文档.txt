@@ -1,0 +1,7 @@
+https://open-doc.dingtalk.com/docs/doc.htm?treeId=168&articleId=104882&docType=1
+
+:
+这个是钉钉扫码登录的API 然后  截图中的ID 就是 你自己定义的div  展示二维码的地方 
+
+
+https://open.fuiou.com/authapply/getFileList.do?module=2  富友支付

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://g.alicdn.com/dingding/dinglogin/0.0.5/ddLogin.js"></script>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div id="login_container"></div>
+</body>
+<script>
+    var obj = DDLogin({
+        id:"login_container",
+        goto: "",
+        style: "border:none;background-color:#FFFFFF;", // 这个就是你定义 二维码的区域的样式，可以自定义去除背景颜色和边框
+        width : "300", // 二维码的大小
+        height: "300"
+    });
+</script>
+</html>
